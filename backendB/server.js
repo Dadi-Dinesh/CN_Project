@@ -1,12 +1,12 @@
-const express = require('express');
+const express = require("express");
 
-
-const app = express()
+const app = express();
+const PORT = 6000;
 
 app.get("/", (req, res) => {
-  res.status(200).send("hello from serverB");
+  res.send("hello from backend B");
 });
 
-app.listen(5000, () => {
-  console.log("serverB started on port 5000");
-});
+app.listen(PORT, () => {
+  console.log(`backend B server running on http://localhost:${PORT}`);
+}); 
