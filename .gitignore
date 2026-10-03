@@ -1,2 +1,5 @@
 backendA/node_modules
 backendB/node_modules
+certs/*.key
+certs/*.csr
+certs/*.srl
