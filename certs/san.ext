@@ -1,0 +1,4 @@
+subjectAltName=DNS:app.team1.test,DNS:api.team1.test
+basicConstraints=CA:FALSE
+keyUsage=digitalSignature,keyEncipherment
+extendedKeyUsage=serverAuth
