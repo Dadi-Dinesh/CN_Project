@@ -3,3 +3,4 @@ backendB/node_modules
 certs/*.key
 certs/*.csr
 certs/*.srl
+.DS_Store
